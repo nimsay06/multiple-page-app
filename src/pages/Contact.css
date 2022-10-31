@@ -1,0 +1,52 @@
+.contactPage {
+  text-align: center;
+  margin: 2em;
+  font-size: 20px;
+}
+
+.contentSection {
+  width: 10em;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+}
+
+.contactDiv {
+  width: 250px;
+  height: min-content;
+  border-radius: 15px;
+  transition: 350ms ease-in-out;
+}
+
+.contactDiv:hover {
+  box-shadow: 0px 5px 15px 6px rgba(153, 153, 153, 0.49);
+}
+#phone {
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+#email {
+  grid-column: 3/3;
+  grid-row: 1/1;
+}
+
+#address {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+#form {
+  grid-column: 1/4;
+  grid-row: 2/2;
+}
+
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 10em;
+}
+
+.contactForm > input {
+  margin: 20px 0px 20px 0px;
+}
