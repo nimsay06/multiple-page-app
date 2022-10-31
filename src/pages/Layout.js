@@ -15,7 +15,7 @@ function Navigation() {
   return (
     <>
       <nav>
-        <ul >
+        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -24,9 +24,6 @@ function Navigation() {
           </li>
           <li>
             <Link to="/contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/*">Error</Link>
           </li>
         </ul>
       </nav>
